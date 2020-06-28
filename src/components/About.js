@@ -1,5 +1,5 @@
 import React from "react";
-import ReactCardFlip from 'react-card-flip';
+// import ReactCardFlip from 'react-card-flip';
 import "../styles/About.css";
 
 function About() {
