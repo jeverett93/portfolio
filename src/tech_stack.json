@@ -1,0 +1,54 @@
+[
+    {
+        "type": "frontend",
+        "image": "portfolio/tech_stack/html5.png"
+    },
+    {
+        "type": "frontend",
+        "image": "portfolio/tech_stack/css3.png"
+    },
+    {
+        "type": "frontend",
+        "image": "portfolio/tech_stack/bootstrap.png"
+    },
+    {
+        "type": "frontend",
+        "image": "portfolio/tech_stack/javascript.png"
+    },
+    {
+        "type": "frontend",
+        "image": "portfolio/tech_stack/jquery.png"
+    },
+    {
+        "type": "frontend",
+        "image": "portfolio/tech_stack/ajax.png"
+    },
+    {
+        "type": "frontend",
+        "image": "portfolio/tech_stack/handlebars.png"
+    },
+    {
+        "type": "backend",
+        "image": "portfolio/tech_stack/api.png"
+    },
+    {
+        "type": "backend",
+        "image": "portfolio/tech_stack/nodejs.png"
+    },
+    {
+        "type": "backend",
+        "image": "portfolio/tech_stack/express.png"
+    },
+    {
+        "type": "backend",
+        "image": "portfolio/tech_stack/mysql.png"
+    },
+    {
+        "type": "backend",
+        "image": "portfolio/tech_stack/sequelize.png"
+    },
+    {
+        "type": "backend",
+        "image": "portfolio/tech_stack/commandline.png"
+    }
+]

@@ -1,0 +1,21 @@
+/* Created border for cards in portfolio section*/
+.card{
+    max-height: 100%;
+    height: 425px;
+    border: outset;
+  }
+  
+  /* created space within portfolio cards for images */
+  .portfolio-img{
+      margin: 10px;
+      height: 200px;
+      width: 250px;
+      max-width: 90%;
+  }
+  
+  /* space between portfolios and next row */
+  .portfolio-row{
+    margin-top: 10px;
+    color: black;
+    font-weight: bold;
+  }
