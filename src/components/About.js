@@ -28,11 +28,11 @@ function About(props) {
             </div>
             <div className="row img-row">
                 <div className="col-6">
-                    <Tech/>
-                </div>
-                <div className="col-6">
                     <img src="portfolio\images\profile picture.jpg" className="profile-img" alt="me"
                     />
+                </div>
+                <div className="col-6">
+                    <Tech/>
                 </div>
             </div>
         </div>

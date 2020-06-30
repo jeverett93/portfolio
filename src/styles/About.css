@@ -11,3 +11,13 @@
     max-width: 100%;
     margin-bottom: 50px;
   }
+
+  @media screen and (max-width: 768px){
+    .img-row{
+      flex-direction: column;
+      align-content: center;
+    }
+    .profile-img{
+      margin: 10px
+    }
+  }
