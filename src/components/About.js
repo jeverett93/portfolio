@@ -1,18 +1,8 @@
-// import React, { useState } from "react";
 import React from 'react'
-// import ReactCardFlip from 'react-card-flip';
 import "../styles/About.css";
 import Tech from './Tech'
-// import tech_stack from '../tech_stack.json';
 
 function About() {
-    // const [flip, setFlip] = useState(false)
-
-    // const handleClick = e => {
-    //     e.preventDefault()
-    //     setFlip(!flip);
-    // }
-
     return (
         <div>
             <div className="row">
@@ -39,21 +29,6 @@ function About() {
             <div className="row img-row">
                 <div className="col-6">
                     <Tech/>
-                {/* <ReactCardFlip flip={flip} flipDirection="horizontal">
-                    <div className="card">Front
-                        <div className="img-container">
-                            <img alt="front-end" src={tech_stack.image}/>
-                        </div>
-                        <button onClick={handleClick}>See the backend</button>
-                    </div>
-                    
-                    <div className="card" onClick={handleClick}>Back
-                        <div className="img-container">
-                            <img alt="back-end" src={tech_stack.image}/>
-                        </div>
-                        <button onClick={handleClick}>See the frontend</button>
-                    </div>    
-                </ReactCardFlip> */}
                 </div>
                 <div className="col-6">
                     <img src="portfolio\images\profile picture.jpg" className="profile-img" alt="me"

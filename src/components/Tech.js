@@ -7,23 +7,24 @@ function Tech() {
 
     const handleClick = e => {
         e.preventDefault()
+        console.log("clicked:", e.target,"----", flip)
         setFlip(!flip);
     }
 
     return (
-        <ReactCardFlip flip={flip} flipDirection="horizontal">
-            <div className="card">Front
+        <ReactCardFlip isFlipped={flip} flipDirection="horizontal">
+            <div className="card" onClick={handleClick}>
                         <div className="img-container">
                     <img alt="front-end" src={tech_stack.image} />
                 </div>
-                <button onClick={handleClick}>See the backend</button>
+                <p>See the backend</p>
             </div>
 
-            <div className="card" onClick={handleClick}>Back
+            <div className="card" onClick={handleClick}>
                         <div className="img-container">
                     <img alt="back-end" src={tech_stack.image} />
                 </div>
-                <button onClick={handleClick}>See the frontend</button>
+                <p>See the frontend</p>
             </div>
         </ReactCardFlip>
     )
