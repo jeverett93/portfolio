@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import ReactCardFlip from 'react-card-flip';
+import "../styles/Tech.css";
 import tech_stack from '../tech_stack.json';
 
 function Tech() {
@@ -7,24 +8,27 @@ function Tech() {
 
     const handleClick = e => {
         e.preventDefault()
-        console.log("clicked:", e.target,"----", flip)
         setFlip(!flip);
     }
 
     return (
         <ReactCardFlip isFlipped={flip} flipDirection="horizontal">
-            <div className="card" onClick={handleClick}>
+            <div className="card tech" onClick={handleClick}>
                         <div className="img-container">
-                    <img alt="front-end" src={tech_stack.image} />
+                            {tech_stack.filter(elem=> elem.type==="frontend").map(tech => (
+                    <img className="stack" alt={tech.type} src={tech.image} />
+                    ))}
                 </div>
-                <p>See the backend</p>
+                <p>See my backend stack</p>
             </div>
 
-            <div className="card" onClick={handleClick}>
+            <div className="card tech" onClick={handleClick}>
                         <div className="img-container">
-                    <img alt="back-end" src={tech_stack.image} />
+                        {tech_stack.filter(elem=> elem.type==="backend").map(tech => (
+                          <img className="stack" alt={tech.type} src={tech.image} />
+                      ))}
                 </div>
-                <p>See the frontend</p>
+                <p>See my frontend stack</p>
             </div>
         </ReactCardFlip>
     )

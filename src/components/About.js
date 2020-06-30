@@ -2,7 +2,7 @@ import React from 'react'
 import "../styles/About.css";
 import Tech from './Tech'
 
-function About() {
+function About(props) {
     return (
         <div>
             <div className="row">
