@@ -12,7 +12,7 @@ function Project() {
             </div>
             <div className="row portfolio-row">
                 <div className="col-md-4">
-                    <div class="card mb-3 bg-light">
+                    <div className="card mb-3 bg-light">
                         <h5 className="card-title">Directions App</h5>
                         <a href="https://jeverett93.github.io/directions-weather/" rel="noopener">
                             <img className="portfolio-img" src="portfolio\images\directionsappimage.jpg" alt="directions app"
