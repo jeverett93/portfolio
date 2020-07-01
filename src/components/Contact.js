@@ -11,12 +11,12 @@ function Contact() {
         </div>
         <div className="row icon-row">
             <div className="offset-md-3 col-md-2">
-                <a href="https://www.linkedin.com/in/joshua-everett-087a4649/" rel="noopener">
+                <a href="https://www.linkedin.com/in/joshua-everett-087a4649/" target="_blank" rel="noopener noreferrer">
                     <img className="icons" src={require("../assets/images/linkedin-logo-icon.png")} alt="linkedin icon" />
                 </a>
             </div>
             <div className="col-md-2">
-                <a href="https://github.com/jeverett93" rel="noopener">
+                <a href="https://github.com/jeverett93" target="_blank" rel="noopener noreferrer">
                     <img className="icons" src={require("../assets/images/github icon.svg")} alt="github icon" />
                 </a>
             </div>
