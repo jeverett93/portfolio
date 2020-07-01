@@ -14,7 +14,21 @@
     color: black;
   }
 
-  @media screen and (max-width: 400px){
+  @media screen and (max-width: 960px){
+    .stack{
+      height: 7vw;
+      width: 7vw;
+    }
+  }
+
+  @media screen and (max-width: 768px){
+    .stack{
+      height: 10vw;
+      width: 10vw;
+    }
+  }
+
+  @media screen and (max-width: 450px){
     .stack{
       height: 12vw;
       width: 12vw;

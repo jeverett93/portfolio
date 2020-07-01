@@ -16,19 +16,19 @@ function Tech() {
             <div className="card tech" onClick={handleClick}>
                         <div className="img-container">
                             {tech_stack.filter(elem=> elem.type==="frontend").map(tech => (
-                    <img className="stack" alt={tech.type} src={tech.image} />
+                    <img className="stack" alt={tech.type} src={require(`../assets/tech_stack/${tech.image}`)} />
                     ))}
                 </div>
-                <p>See my backend stack</p>
+                <p>Click to see my backend stack</p>
             </div>
 
             <div className="card tech" onClick={handleClick}>
                         <div className="img-container">
                         {tech_stack.filter(elem=> elem.type==="backend").map(tech => (
-                          <img className="stack" alt={tech.type} src={tech.image} />
+                          <img className="stack" alt={tech.type} src={require(`../assets/tech_stack/${tech.image}`)} />
                       ))}
                 </div>
-                <p>See my frontend stack</p>
+                <p>Click to see my frontend stack</p>
             </div>
         </ReactCardFlip>
     )

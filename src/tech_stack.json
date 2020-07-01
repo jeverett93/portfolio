@@ -1,54 +1,54 @@
 [
     {
         "type": "frontend",
-        "image": "portfolio/tech_stack/html5.png"
+        "image": "html5.png"
     },
     {
         "type": "frontend",
-        "image": "portfolio/tech_stack/css3.png"
+        "image": "css3.png"
     },
     {
         "type": "frontend",
-        "image": "portfolio/tech_stack/bootstrap.png"
+        "image": "bootstrap.png"
     },
     {
         "type": "frontend",
-        "image": "portfolio/tech_stack/javascript.png"
+        "image": "javascript.png"
     },
     {
         "type": "frontend",
-        "image": "portfolio/tech_stack/jquery.png"
+        "image": "jquery.png"
     },
     {
         "type": "frontend",
-        "image": "portfolio/tech_stack/ajax.png"
+        "image": "ajax.png"
     },
     {
         "type": "frontend",
-        "image": "portfolio/tech_stack/handlebars.png"
+        "image": "handlebars.png"
     },
     {
         "type": "backend",
-        "image": "portfolio/tech_stack/api.png"
+        "image": "api.png"
     },
     {
         "type": "backend",
-        "image": "portfolio/tech_stack/nodejs.png"
+        "image": "nodejs.png"
     },
     {
         "type": "backend",
-        "image": "portfolio/tech_stack/express.png"
+        "image": "express.png"
     },
     {
         "type": "backend",
-        "image": "portfolio/tech_stack/mysql.png"
+        "image": "mysql.png"
     },
     {
         "type": "backend",
-        "image": "portfolio/tech_stack/sequelize.png"
+        "image": "sequelize.png"
     },
     {
         "type": "backend",
-        "image": "portfolio/tech_stack/commandline.png"
+        "image": "commandline.png"
     }
 ]

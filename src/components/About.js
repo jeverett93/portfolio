@@ -22,17 +22,17 @@ function About(props) {
                     swath of
                     people.</p>
                     <p className="bio-text">
-                        <a href="portfolio\resume\JE_WEB_DEV_RESUME.pdf" rel="noopener">View Resume</a>
+                        <a href={require("../assets/resume/JE_WEB_DEV_RESUME.pdf")} target="_blank" rel="noopener noreferrer">View Resume</a>
                     </p>
                 </div>
             </div>
             <div className="row img-row">
                 <div className="col-6">
-                    <img src="portfolio\images\profile picture.jpg" className="profile-img" alt="me"
+                    <img src={require("../assets/images/profile picture.jpg")} className="profile-img" alt="me"
                     />
                 </div>
                 <div className="col-6">
-                    <Tech/>
+                <Tech/>
                 </div>
             </div>
         </div>

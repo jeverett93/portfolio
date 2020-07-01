@@ -15,7 +15,7 @@ function Project() {
                     <div className="card mb-3 bg-light">
                         <h5 className="card-title">Directions App</h5>
                         <a href="https://jeverett93.github.io/directions-weather/" rel="noopener">
-                            <img className="portfolio-img" src="portfolio\images\directionsappimage.jpg" alt="directions app"
+                            <img className="portfolio-img" src={require("../assets/images/directionsappimage.jpg")} alt="directions app"
                             />
                         </a>
                         <p className="card-text">An application that allows a user to
@@ -29,7 +29,7 @@ function Project() {
                     <div className="card mb-3 bg-light">
                         <h5 className="card-title">Weather Dashboard</h5>
                         <a href="https://jeverett93.github.io/weatherdashboard/" rel="noopener">
-                            <img className="portfolio-img" src="portfolio\images\weatherdashboardimage.jpg" alt="weather dashboard"
+                            <img className="portfolio-img" src={require("../assets/images/weatherdashboardimage.jpg")} alt="weather dashboard"
                             />
                         </a>
                         <p className="card-text">An application that allows a user to
@@ -42,7 +42,7 @@ function Project() {
                 <div className="col-md-4">
                     <div className="card mb-3 bg-light">
                         <h5 className="card-title">ReadMe Generator - CLI</h5>
-                        <img className="portfolio-img" src="portfolio\images\readmegenimg.jpg" alt="readme generator"
+                        <img className="portfolio-img" src={require("../assets/images/readmegenimg.jpg")} alt="readme generator"
                         />
                         <p className="card-text">A command line application that allows
                         a user generate a new readme for a project.</p>
@@ -57,7 +57,7 @@ function Project() {
                     <div className="card mb-3 bg-light">
                         <h5 className="card-title">Stickler's Paradise</h5>
                         <a href="https://sticklersparadise.herokuapp.com/" rel="noopener">
-                            <img className="portfolio-img" src="portfolio\images\sticklersparadiseimage.jpg" alt="stickler's paradise"
+                            <img className="portfolio-img" src={require("../assets/images/sticklersparadiseimage.jpg")} alt="stickler's paradise"
                             />
                         </a>
                         <p className="card-text">An application that allows a user to
@@ -71,7 +71,7 @@ function Project() {
                     <div className="card mb-3 bg-light">
                         <h5 className="card-title">Good Burger</h5>
                         <a href="https://welcometothegoodburger.herokuapp.com/" rel="noopener">
-                            <img className="portfolio-img" src="portfolio\images\goodburger-icon.png" alt="welcome to the goodburger"
+                            <img className="portfolio-img" src={require("../assets/images/goodburger-icon.png")} alt="welcome to the goodburger"
                             />
                         </a>
                         <p className="card-text">An application that allows users to
@@ -85,7 +85,7 @@ function Project() {
                     <div className="card mb-3 bg-light">
                         <h5 className="card-title">Note Taker</h5>
                         <a href="https://safe-cliffs-22536.herokuapp.com/" rel="noopener">
-                            <img className="portfolio-img" src="portfolio\images\notetakerimage.jpg" alt="note taker app"
+                            <img className="portfolio-img" src={require("../assets/images/notetakerimage.jpg")} alt="note taker app"
                             />
                         </a>
                         <p className="card-text">An application that can be used to
