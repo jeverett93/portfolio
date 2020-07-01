@@ -1,3 +1,4 @@
+// importing required package and style file
 import React from "react";
 import "../styles/Footer.css";
 
@@ -9,4 +10,5 @@ function Footer() {
     )
 }
 
+// exporting component to be used in other parts of the application
 export default Footer

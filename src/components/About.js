@@ -1,17 +1,20 @@
+// importing required package, style file, and Tech component
 import React from 'react'
 import "../styles/About.css";
 import Tech from './Tech'
 
-function About(props) {
+function About() {
     return (
         <div>
             <div className="row">
+                {/* header */}
                 <div className="col-12">
                     <div className="heading fixed-top sticky-top">
                         <h1 className="page-title">Josh Everett</h1>
                     </div>
                 </div>
             </div>
+            {/* Bio */}
             <div className="row">
                 <div className="col-12">
                     <p className="bio-text">Web Developer with a background in Social Services and Community Organizing.
@@ -26,11 +29,13 @@ function About(props) {
                     </p>
                 </div>
             </div>
+            {/* Profile Pic */}
             <div className="row img-row">
                 <div className="col-6">
                     <img src={require("../assets/images/profile picture.jpg")} className="profile-img" alt="me"
                     />
                 </div>
+                {/* Rendering Tech Component */}
                 <div className="col-6">
                 <Tech/>
                 </div>
@@ -39,4 +44,5 @@ function About(props) {
     )
 }
 
+// exporting component to be used in other parts of the application 
 export default About

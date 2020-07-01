@@ -1,10 +1,11 @@
+// importing required package and style file
 import React from "react";
 import "../styles/Project.css";
-
 
 function Project() {
     return (
         <div className="container">
+            {/* Portfolio section with project images */}
             <div className="row">
                 <div className="col-12">
                     <h1>Some Projects I've Done:</h1>
@@ -106,4 +107,5 @@ function Project() {
     )
 }
 
+// exporting component to be used in other parts of the application
 export default Project

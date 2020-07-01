@@ -12,6 +12,7 @@
     margin-bottom: 50px;
   }
 
+  /* adjusting profile pic for screen size */
   @media screen and (max-width: 768px){
     .img-row{
       flex-direction: column;

@@ -1,9 +1,11 @@
+// importing required package and style file
 import React from 'react'
 import "../styles/Contact.css";
 
 function Contact() {
     return (
         <div>
+            {/* Contact section */}
         <div className="row contact-row">
             <div className="col-md-12">
                 <h2 className="contact-head">Contact Me</h2>
@@ -30,4 +32,5 @@ function Contact() {
     )
 }
 
+// exporting component to be used in other parts of the application
 export default Contact

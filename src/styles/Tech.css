@@ -1,14 +1,17 @@
+/* size of tech stack icons */
 .stack{
     margin: 10px;
     max-width: 100px;
     max-height: 100px;
   }
 
+/* making flip card transparent and taking away the border */
   .tech{
       background-color: transparent;
       border: none!important;
   }
 
+  /* making text in card black and bold */
   .tech p{
     font-weight: bold;
     font-size: larger;

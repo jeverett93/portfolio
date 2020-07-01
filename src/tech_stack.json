@@ -28,6 +28,10 @@
         "image": "handlebars.png"
     },
     {
+        "type": "frontend",
+        "image": "react.png"
+    },
+    {
         "type": "backend",
         "image": "api.png"
     },
