@@ -5,7 +5,8 @@
   }
 
   .tech{
-      background-color: rgb(245, 245, 133);
+      background-color: transparent;
+      border: none!important;
   }
 
   .tech p{
